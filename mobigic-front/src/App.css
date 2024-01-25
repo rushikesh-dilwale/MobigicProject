@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin-right for spacing between buttons */
+}
+
+button:last-child {
+  margin-right: 0; /* Remove margin-right for the last button */
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Add this rule to create a gap between Register and Login buttons */
+button#loginButton {
+  margin-left: 10px;
+}
+
+.button1{
+  margin-top: 10px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-section {
+  flex-basis: 40%;
+  padding: 20px;
+}
