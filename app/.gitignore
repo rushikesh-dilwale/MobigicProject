@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+
+# MongoDB
+.env
+/uploads/
+
+# Logs
+logs/
+*.log
+
+# Editor specific files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# npm package-lock.json
+package-lock.json
